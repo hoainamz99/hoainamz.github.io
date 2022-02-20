@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    color: white;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.thongbao{
+    height: 50px;
+    background-color: #000000;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+
+.menu-logo{
+    position: relative;
+    height: 73px;
+    background:#ededed;
+}
+
+.menu-logo .logo{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
+
+.menu-logo > nav{
+    position: absolute;
+    top: 3px;
+    right: 510px;
+}
+
+.menu > li{
+    list-style: none;
+    float: left;
+    position: relative;
+}
+.menu > li > a{
+    text-decoration: none;
+    color: #000000;
+    padding: 15px;
+    line-height: 70px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+.menu > li > a:hover{
+    color: red;
+    transition: all .5s linear;
+    letter-spacing: 1px;
+}
+.menu-logo .login {
+    position: absolute;
+    font-size: 50px;
+    right: 70px;
+    top: 10px;
+    
+}
+.menu-logo .login a{
+    color: #000000;
+}
+.menu-logo .login a:hover{
+    color: red;
+    transition: all .5s linear;
+}
+.them{
+    background-color: #ededed;
+    width: 200px;
+    min-height:150px ;
+    display: none;
+    position: absolute;
+}
+.them li{
+    list-style: none;
+}
+.them li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    display: block;
+    border-bottom: 1px solid #000000;
+    line-height: 50px;
+    text-indent: 10px;
+}
+.menu > li:hover .them{
+    display: block;
+}
+.them li a:hover{
+    transition: all .5s linear;
+    letter-spacing: 1px;
+    color: red;
+}
+
+.banner{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 110px;
+    
+}
+.banner img{
+    width: 858px;
+    height: 533px;
+    margin:0 246px;
+    
+}
+
+.heading{
+    text-align: center;
+    font-size: 32px;
+    margin-top:40px ;
+    margin-bottom: 30px;
+}
+/* general */
+.general{
+    width: 100%;
+    
+}
+.general >.content{
+    margin: 0 246px;
+    
+}
+.general >.content img{
+    margin-right: 20px;
+}
+/* title */
+.title .list-title .title-item {
+    width: 19%;
+    display: inline-block;
+    margin: 0 5px;
+}
+.title .list-title .title-item img{
+    max-width: 100%;
+    height: 560px;
+}
+.title .list-title .title-item h3:hover{
+    transition: all .5s linear;
+    letter-spacing: 1px;
+    color: red;
+    cursor: pointer;
+}
+.div{
+    width: 100%;
+    
+}
+.div img{
+    margin: 100px 200px;
+    max-width: 100%;
+}
+/* highlight */
+.highlight .highlight-item{
+    width: 30%;
+    display: inline-block;
+    margin: 0 20px;
+}
+.highlight .highlight-item img{
+    width: 100%;
+    height: 640px;
+    
+}
+.highlight .highlight-item a{
+    text-decoration: none;
+    color: #ededed;
+}
+.highlight-item a:hover{
+    transition: all 1s linear;
+    letter-spacing: 0.5px;
+    color: white;
+}
+span{
+    color: rgb(107, 6, 6);
+    font-style: italic;
+    
+}
+/* store */
+.store .store-list .store-item{
+    width: 23%;
+    display: inline-block;
+    margin:20px 10px ;
+    text-align: center;
+}
+.store .store-item img{
+    max-width: 100%;
+}
+.store .store-list .store-item img:hover{
+    transform: scale(1.1);
+    transition: all .3s linear;
+}
+.store .store-list .store-item p:hover{
+    transition: all .3s linear;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+/* footer */
+.container{
+    max-width: 1170px;
+    
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #ededed;
+    padding: 70px 0;
+    color: #000;
+
+}
+.footer-col{
+width: 33%;
+padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+footer .footer-col a{
+    color: #000;
+    text-decoration: none;
+}
+footer .footer-coll a{
+    font-size: 50px;
+    color: #000;
+}
+.tacgia{
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+}

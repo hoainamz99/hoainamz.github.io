@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+body{
+  color: #ededed;
+  background-color: #000000;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.thongbao{
+  height: 50px;
+  background-color: #000000;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
+
+.menu-logo{
+  position: relative;
+  height: 73px;
+  background:#ededed;
+}
+
+.menu-logo .logo{
+  position: absolute;
+  top: 10px;
+  left: 70px;
+}
+
+.menu-logo > nav{
+  position: absolute;
+  top: 3px;
+  right: 510px;
+}
+
+.menu > li{
+  list-style: none;
+  float: left;
+  position: relative;
+}
+.menu > li > a{
+  text-decoration: none;
+  color: #000000;
+  padding: 15px;
+  line-height: 70px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+.menu > li > a:hover{
+  color: red;
+  transition: all .5s linear;
+  letter-spacing: 1px;
+}
+.menu-logo .login {
+  position: absolute;
+  font-size: 50px;
+  right: 70px;
+  top: 10px;
+  
+}
+.menu-logo .login a{
+  color: #000000;
+}
+.menu-logo .login a:hover{
+  color: red;
+  transition: all .5s linear;
+}
+.them{
+  background-color: #ededed;
+  width: 200px;
+  min-height:150px ;
+  display: none;
+  position: absolute;
+}
+.them li{
+  list-style: none;
+}
+.them li a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  display: block;
+  border-bottom: 1px solid #000000;
+  line-height: 50px;
+  text-indent: 10px;
+}
+.menu > li:hover .them{
+  display: block;
+}
+.them li a:hover{
+  transition: all .5s linear;
+  letter-spacing: 1px;
+  color: red;
+}
+.heading{
+  text-align: center;
+  font-size: 32px;
+  margin-top:40px ;
+  margin-bottom: 30px;
+}
+.heading1{
+  
+  font-size: 60px;
+ 
+  
+  
+}
+.boxcenter{
+  width: 100%;
+}
+.hinh{
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.hinh img{
+  width: 100%;
+}
+.chu{
+  position: absolute;
+  top: 130px;
+  left: 5px;
+}
+.chu h3{
+  font-size: 30px;
+}
+.chu1{
+  color: brown;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 5px;
+  width: 160px;
+}
+.chu1:hover{
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.chu2{
+  color: white ;
+  background-color: green;
+  text-align: center;
+  width: 200px;
+}
+.chu2:hover{
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.portugal{
+  background: rgb(27, 63, 27);
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+.portugal .hinhh .hinh1{
+   float: left;
+   object-fit: cover;
+
+}
+
+.hinh2{
+  position: absolute;
+  right: 0;
+  top:200px;
+  
+}
+.sunghiep{
+  position: absolute;
+  width: 1000px;
+  top: 10%;
+  left: 20%;
+  background: #000000;
+  opacity: 0.5;
+  padding: 50px;
+  color:white;
+  font-weight: bolder;
+}
+.sunghiep details summary{
+  cursor: pointer;
+}
+.sunghiep details summary:hover{
+  color: #35858B;
+  font-weight: 900;
+}
+/* clb */
+ .clb{
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+}
+.clb img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+
+} 
+.clb .content{
+  position: relative;
+  max-width: 750px;
+  text-align: center;
+}
+.clb .content h3{
+  color: #fff;
+  font-size: 60px;
+}
+
+
+
+/* footer */
+.container{
+  max-width: 1170px;
+  
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+
+.footer{
+  background-color: #ededed;
+  padding: 70px 0;
+  color: #000;
+
+}
+.footer-col{
+width: 33%;
+padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+footer .footer-col a{
+  color: #000;
+  text-decoration: none;
+}
+footer .footer-coll a{
+  font-size: 50px;
+  color: #000;
+}
+.tacgia{
+  text-align: center;
+  padding: 10px;
+  background-color: #000000;
+}
+
+
+
+
+
