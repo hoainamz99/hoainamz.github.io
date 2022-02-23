@@ -153,6 +153,7 @@ input[type=submit]:hover{
 .dk{
     height: 200px;
     margin: 10px;
+    margin-bottom: 60px;
     text-align: center;
 }
 .span{
@@ -175,6 +176,7 @@ input[type=submit]:hover{
     font-size:18px;
     color: #000000;
     text-decoration: none;
+    
 }
 .button:hover{
     background:#000000 ;
