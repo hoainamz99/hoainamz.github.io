@@ -43,7 +43,7 @@ header{
 .menu-logo > nav{
     position: absolute;
     top: 3px;
-    right: 510px;
+    right: 440px;
 }
 
 .menu > li{
@@ -115,7 +115,7 @@ header{
 .banner img{
     width: 858px;
     height: 533px;
-    margin:0 246px;
+    margin:0 180px;
     
 }
 
